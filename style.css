@@ -4,7 +4,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 45px;
+  padding: 15px 30px;
 }
 
 header a {
@@ -21,12 +21,15 @@ header nav a {
 }
 
 .intro {
-  height: 100px;
+  background-image: url(OneDrive_1_04-11-2025/banner2.jpg);
+  height: 360px;
+  width: 1500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: #ffffff;
 }
 
 img {
@@ -36,4 +39,22 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #555555;
+  background-image: url(OneDrive_1_04-11-2025/bg.jpg);
+}
+main .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #555555;
 }/*# sourceMappingURL=style.css.map */
