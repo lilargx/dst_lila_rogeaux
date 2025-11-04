@@ -1,1 +1,39 @@
-/*# sourceMappingURL=style.css.map */
+header {
+  background-color: #111111;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 45px;
+}
+
+header a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+header nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  opacity: 50%;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+.intro {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
