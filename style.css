@@ -42,15 +42,17 @@ img {
 }
 
 main {
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #555555;
   background-image: url(OneDrive_1_04-11-2025/bg.jpg);
+  height: 850px;
+  width: 1500px;
 }
-main .article {
+main article .article {
   display: flex;
   flex-direction: column;
   justify-content: center;
